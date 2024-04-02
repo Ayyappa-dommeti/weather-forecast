@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:black;
+}
+.title{
+    font-size: 70px;
+    font-weight:bold;
+    text-align: center;
+    color: rgb(27, 159, 173);
+    border:3px solid black;
+    width:100%;
+    align-items: center;
+    margin: 0 auto;
+    background-color:chartreuse;
+    text-transform: uppercase;
+    text-shadow:2px 2px  #ebfffc,
+    1px 1px rgb(11,33,00),
+    0 0 tomato,
+    -1.5px 1.5px magenta;
+}
+.card{
+    width:90%;
+    max-width:470px;
+    background: linear-gradient(135deg,#00feba,
+        #5b548a);
+    color: #fff;
+    margin:100px auto 0; 
+    border-radius: 20px;
+    padding: 35px ;
+    text-align:center;
+    margin-top:15px;
+    /* padding-top:-150px; */
+}
+img{
+    width:50px;
+    height:30px;
+}
+.search{
+    margin-top:-20px;
+    margin-bottom:20px;
+    width : 100%; 
+    display : flex;  
+    align-items:center; 
+    justify-content: space-between;
+}
+.search input{
+    border : 0;
+    outline : 0; 
+    background: #ebfffc; 
+    color:#555; 
+    padding: 10px 25px;  
+    height: 60px; 
+    border-radius: 30px;
+    flex:1; 
+    margin-right: 16px; 
+    font-size:18px;
+}
+
+.search button{
+    border : 0;
+    outline : 0; 
+    background: #ebfffc; 
+    border-radius : 50%; 
+    width: 60px;
+    height: 60px; 
+    cursor:pointer;
+}
+.first{
+   width:150px;
+   height:180px; 
+   margin-top:-10px;
+}
+
+.weather h1{
+    font-size:80px;
+    font-weight:500; 
+}
+.weather h2{
+    font-size:45px;
+    font-weight:400; 
+    margin-top:-10px;
+}
+
+.details{
+    display:flex; 
+    /* flex-direction: row; */
+    align-items:center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top:50px;
+}
+.col{
+    display:flex;
+    align-items:center;
+    text-align:left;   
+}
+.col img{
+    width : 80px; 
+    height:70px;
+    margin-right:10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.humidity{
+    margin-right:30px;
+}
+
+.weather{
+    display: none;
+}
+.error{
+    text-align : left;
+    margin-left : 10px; 
+    font-size: 14px; 
+    margin-top: 10px;
+    display: none;
+}
+/* .weather .temp{
+    margin-top:0;
+}
+.weather .details .col img{
+    width:180px;
+    height:120px;
+    margin:0;
+} */
